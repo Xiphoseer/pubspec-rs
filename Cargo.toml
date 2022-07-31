@@ -1,0 +1,11 @@
+[package]
+name = "pubspec"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.140", features = ["derive"] }
+
+[dev-dependencies]
+clap = { version = "3.2.16", features = ["derive"] }
+serde_yaml = "0.9.2"
